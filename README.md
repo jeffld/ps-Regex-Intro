@@ -7,3 +7,5 @@ This C#.NET project is a class project used for the examples of REGEX.  Notice t
 
 
 ![s1.jpg](/ImagePath/s1.jpg)
+
+Edited using [prose.io](http://prose.io/#jeffld/ps-Regex-Intro/edit/master/README.md)
