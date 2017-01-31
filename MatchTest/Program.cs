@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace MatchTest
+namespace RegexIntro
 {
     class Program
     {
@@ -15,13 +15,13 @@ namespace MatchTest
             var subject = args[1];
             var regex = new Regex(pattern);
             var match = regex.Match(subject);
-            if(match.Success)
+            if (match.Success)
             {
-                Console.WriteLine(MatchSuccess, match.Success, match.Index, match.Length);                
+                Console.WriteLine(MatchSuccess, match.Success, match.Index, match.Length);
             }
             else
             {
-                Console.WriteLine(match.Success);                
+                Console.WriteLine(match.Success);
             }
         }
     }
