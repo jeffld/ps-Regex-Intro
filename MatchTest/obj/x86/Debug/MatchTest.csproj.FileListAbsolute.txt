@@ -1,0 +1,5 @@
+M:\Pluralsight Video Courses\RegularExpressions\IntroductionModule\Exercises\MatchTest\MatchTest\bin\Debug\MatchTest.exe
+M:\Pluralsight Video Courses\RegularExpressions\IntroductionModule\Exercises\MatchTest\MatchTest\bin\Debug\MatchTest.pdb
+M:\Pluralsight Video Courses\RegularExpressions\IntroductionModule\Exercises\MatchTest\MatchTest\obj\x86\Debug\ResolveAssemblyReference.cache
+M:\Pluralsight Video Courses\RegularExpressions\IntroductionModule\Exercises\MatchTest\MatchTest\obj\x86\Debug\MatchTest.exe
+M:\Pluralsight Video Courses\RegularExpressions\IntroductionModule\Exercises\MatchTest\MatchTest\obj\x86\Debug\MatchTest.pdb

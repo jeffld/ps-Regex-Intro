@@ -1,0 +1,68 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1C3C2D0A-F9B3-425C-BE56-47EBAD25513D/f:Program.cs" caret="759" fromTop="26" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1C3C2D0A-F9B3-425C-BE56-47EBAD25513D/f:Program.cs" caret="126" fromTop="4" />
+      <File id="1C3C2D0A-F9B3-425C-BE56-47EBAD25513D/f:Program.cs" caret="743" fromTop="21" />
+      <File id="1C3C2D0A-F9B3-425C-BE56-47EBAD25513D/f:Program.cs" caret="743" fromTop="24" />
+      <File id="1C3C2D0A-F9B3-425C-BE56-47EBAD25513D/f:Program.cs" caret="241" fromTop="10" />
+      <File id="1C3C2D0A-F9B3-425C-BE56-47EBAD25513D/f:Program.cs" caret="710" fromTop="23" />
+      <File id="1C3C2D0A-F9B3-425C-BE56-47EBAD25513D/f:Program.cs" caret="593" fromTop="19" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Text.RegularExpressions" priority="0" />
+      <Item value="var" priority="3" />
+      <Item value="args" priority="1" />
+      <Item value="new" priority="0" />
+      <Item value="Regex`0" priority="0" />
+      <Item value="pattern" priority="0" />
+      <Item value="regex" priority="0" />
+      <Item value="subject" priority="0" />
+      <Item value="Console`0" priority="2" />
+      <Item value="match" priority="11" />
+      <Item value="static" priority="4" />
+      <Item value="readonly" priority="3" />
+      <Item value="string" priority="4" />
+      <Item value="private" priority="0" />
+      <Item value="if" priority="2" />
+      <Item value="else" priority="2" />
+      <Item value="MatchFail" priority="0" />
+      <Item value="const" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Regex">
+      <Item value="Match`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.RegularExpressions.Match">
+      <Item value="Success" priority="4" />
+      <Item value="Index" priority="3" />
+      <Item value="Length" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
