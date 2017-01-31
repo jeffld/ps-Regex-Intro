@@ -14,9 +14,11 @@ namespace RegexIntro
 
         public string Pattern { get; set; }
         public string Subject { get; set; }
-        //private const string MatchSuccess = "{0}  @{1}:{2}";
+        public string Results { get; set; }
+        private const string MatchSuccess = "{0}  @{1}:{2}";
+        
 
-        public bool MatchTest()
+        public string MatchTest()
         {
             var regex = new Regex(Pattern);
             var match = regex.Match(Subject);
@@ -28,7 +30,12 @@ namespace RegexIntro
             //{
             //    Console.WriteLine(match.Success);
             //}
-            return match.Success;
+
+            Results = string.Format(MatchSuccess, match.Success, match.Index, match.Length);
+
+            Console.WriteLine("Executed MatchTest!\nPattern: {0}\nSubject: {1}\nResults: {2}\n", Pattern, Subject,Results);
+
+            return Results;
         }
 
         

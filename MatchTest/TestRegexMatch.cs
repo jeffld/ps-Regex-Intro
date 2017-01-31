@@ -19,7 +19,7 @@ namespace RegexIntro.Tests
             var RegexIntro = new RegexIntro();
             RegexIntro.Pattern = "cat";
             RegexIntro.Subject = "cat";
-            var expected = true;
+            var expected = "True  @0:3";
 
             // Act
             var actual = RegexIntro.MatchTest();
@@ -28,7 +28,21 @@ namespace RegexIntro.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestMethod()]
+        public void SimpleMatchConcatenate()
+        {
+            // Arrange
+            var RegexIntro = new RegexIntro();
+            RegexIntro.Pattern = "cat";
+            RegexIntro.Subject = "dogcat";
+            var expected = "True  @3:3";
 
+            // Act
+            var actual = RegexIntro.MatchTest();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
 
 
 

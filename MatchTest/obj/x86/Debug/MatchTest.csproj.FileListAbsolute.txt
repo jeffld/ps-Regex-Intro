@@ -5,7 +5,6 @@ M:\Pluralsight Video Courses\RegularExpressions\IntroductionModule\Exercises\Mat
 M:\Pluralsight Video Courses\RegularExpressions\IntroductionModule\Exercises\MatchTest\MatchTest\obj\x86\Debug\MatchTest.pdb
 C:\Users\jdarling\Documents\Visual Studio 2012\Projects\git\ps-Regex-Intro\MatchTest\obj\x86\Debug\MatchTest.pdb
 C:\Users\jdarling\Documents\Visual Studio 2012\Projects\git\ps-Regex-Intro\MatchTest\bin\Debug\MatchTest.pdb
-C:\Users\jdarling\Documents\Visual Studio 2012\Projects\git\ps-Regex-Intro\MatchTest\obj\x86\Debug\MatchTest.csprojResolveAssemblyReference.cache
 C:\Users\jdarling\Documents\Visual Studio 2012\Projects\git\ps-Regex-Intro\MatchTest\bin\Debug\MatchTest.dll.config
 C:\Users\jdarling\Documents\Visual Studio 2012\Projects\git\ps-Regex-Intro\MatchTest\bin\Debug\MatchTest.dll
 C:\Users\jdarling\Documents\Visual Studio 2012\Projects\git\ps-Regex-Intro\MatchTest\obj\x86\Debug\MatchTest.dll
