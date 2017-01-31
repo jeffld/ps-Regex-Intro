@@ -38,7 +38,19 @@ namespace RegexIntro
             return Results;
         }
 
-        
+        public string MatchTest2(string comment)
+        {
+            var regex = new Regex(Pattern);
+            var match = regex.Match(Subject);
+
+            while (match.Success)
+            {
+                Results = string.Format(MatchSuccess, match.Success, match.Index, match.Length);
+                Console.WriteLine("Executed MatchTest!\nComment: {3}\nPattern: {0}\nSubject: {1}\nResults: {2}\n", Pattern, Subject, Results, comment);
+                match = match.NextMatch();
+            }
+            return Results;
+        }
 
     }
 }

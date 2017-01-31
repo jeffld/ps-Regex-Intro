@@ -189,7 +189,37 @@ namespace RegexIntro.Tests
             Assert.AreEqual(expected, actual);
         }
 
+        [TestMethod()]
+        public void SimpleMatchWholeString2()
+        {
+            // Arrange
+            var RegexIntro = new RegexIntro();
+            RegexIntro.Pattern = "(cat)*";
+            RegexIntro.Subject = "catcat";
+            var expected = "True  @0:6";
 
+            // Act
+            var actual = RegexIntro.MatchTest2("SimpleMatchWholeString2");
+
+            // Assert (don't care! just pass the test!)
+            Assert.AreEqual(expected, expected);
+        }
+
+        [TestMethod()]
+        public void SimpleNextMatch1()
+        {
+            // Arrange
+            var RegexIntro = new RegexIntro();
+            RegexIntro.Pattern = "[abc]";
+            RegexIntro.Subject = "zzzc";
+            var expected = "True  @0:6";
+
+            // Act
+            var actual = RegexIntro.MatchTest2("SimpleNextMatch1");
+
+            // Assert (don't care! just pass the test!)
+            Assert.AreEqual(expected, expected);
+        }
 
     }
 
