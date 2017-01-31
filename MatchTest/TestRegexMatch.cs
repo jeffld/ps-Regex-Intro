@@ -22,7 +22,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:3";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatch");
             
             // Assert
             Assert.AreEqual(expected, actual);
@@ -38,7 +38,7 @@ namespace RegexIntro.Tests
             var expected = "True  @3:3";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchConcatenate");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -54,7 +54,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:3";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchConcatenate2");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -70,7 +70,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:3";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchAlternation1");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -86,7 +86,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:3";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchAlternation2");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -102,7 +102,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:3";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchAlternation3");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -118,7 +118,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:3";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchAlternation4");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -134,7 +134,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:6";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchAlternation5");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -151,7 +151,7 @@ namespace RegexIntro.Tests
             var expected = "True  @0:0";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchRepetition1");
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -167,11 +167,29 @@ namespace RegexIntro.Tests
             var expected = "True  @0:6";
 
             // Act
-            var actual = RegexIntro.MatchTest();
+            var actual = RegexIntro.MatchTest("SimpleMatchRepetition2");
 
             // Assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod()]
+        public void SimpleMatchWholeString1()
+        {
+            // Arrange
+            var RegexIntro = new RegexIntro();
+            RegexIntro.Pattern = "(cat)*";
+            RegexIntro.Subject = "catcat";
+            var expected = "True  @0:6";
+
+            // Act
+            var actual = RegexIntro.MatchTest("SimpleMatchWholeString1");
+
+            // Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+
 
     }
 

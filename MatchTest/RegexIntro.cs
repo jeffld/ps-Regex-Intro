@@ -18,7 +18,7 @@ namespace RegexIntro
         private const string MatchSuccess = "{0}  @{1}:{2}";
         
 
-        public string MatchTest()
+        public string MatchTest(string comment)
         {
             var regex = new Regex(Pattern);
             var match = regex.Match(Subject);
@@ -33,7 +33,7 @@ namespace RegexIntro
 
             Results = string.Format(MatchSuccess, match.Success, match.Index, match.Length);
 
-            Console.WriteLine("Executed MatchTest!\nPattern: {0}\nSubject: {1}\nResults: {2}\n", Pattern, Subject,Results);
+            Console.WriteLine("Executed MatchTest!\nComment: {3}\nPattern: {0}\nSubject: {1}\nResults: {2}\n", Pattern, Subject,Results,comment);
 
             return Results;
         }
